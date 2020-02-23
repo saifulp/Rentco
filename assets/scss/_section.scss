@@ -1,0 +1,21 @@
+/* All section Tile Css */
+.section-padding{
+    padding: 80px 0;
+}
+.section{
+    &__title{
+        margin-bottom: 80px;
+        & h3{
+            font-size: 38px;
+            font-weight: 600;
+            color: $secondary-color-2;
+            margin-bottom: 20px;
+        }
+        & p{
+            font-size: 18px;
+            font-weight: 400;
+            color: $secondary-color;
+            line-height: 28px;
+        }
+    }
+}

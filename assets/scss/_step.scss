@@ -1,0 +1,28 @@
+/* step area css */ 
+.step{
+    &__single_item{
+        padding: 80px 40px;
+        text-align: center;
+        &:hover{
+            @include shadow()
+        }
+        & .step__single_item_img{
+            & img{
+                margin-bottom: 80px;
+                height: 90px;
+                width: 90px;
+            }
+        }
+        & h5{
+            font-size: 26px;
+            font-weight: 600;
+            color: $secondary-color;
+        }
+        & p{
+            font-size: 18px;
+            color: $secondary-color;
+            line-height: 28px;
+            margin-top: 20px;
+        }
+    }
+}

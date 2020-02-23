@@ -1,0 +1,75 @@
+/* trip area css */
+.make-your-trip-area{
+
+}
+.trip{
+    padding: 85px 100px;
+    @include shadow()
+    & .col-lg-3, .col-lg-2{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+  &__main{
+      & h4{
+          font-size: 24px;
+          font-weight: 600;
+          font-family: $font-family;
+          color: $secondary-color;
+          margin-bottom: 20px;
+      }
+      & p{
+          font-size: 16px;
+          color: $secondary-color-2;
+          line-height: 24px;
+          font-weight: 400;
+          margin-bottom: 30px;
+        }
+  }
+  &__input{
+      & label{
+          display: block;
+          font-size: 15px;
+          font-weight: 600;
+          color: $secondary-color;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+      }
+      & span{
+        position: absolute;
+        left: 25px;
+        top: 48px;
+        z-index: 9;
+        font-size: 14px;
+        color: #C4BABA;
+      }
+      & input{
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        color: $secondary-color;
+        border: 1px solid #ddd;
+        padding-left: 30px;
+        position: relative;
+         &[type='text']::placeholder{
+             color: #C4BABA;
+         }
+      }
+  } 
+  &__submit{
+      margin-top: 30px;
+      & button{
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+        border: 1px solid #ece3e3;
+        background-color: #ff992e;
+        font-size: 15px;
+        font-weight: 700;
+        color: $white;
+        font-family: $font-family;
+        border: 1px solid #ff992e;
+        padding: 0 14px;
+      }
+  }  
+}

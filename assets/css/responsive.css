@@ -1,0 +1,54 @@
+/* ==========================
+Template Name: Merit College.
+Author url: fb.com/riman4200
+Description: Merit College is a Education Based Html5 Bootstrap4 Webtemplate.
+============================= */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .about-college .about-img {height: 500px;}
+  .course-list .single-course-item .course-meta .course-duration {display: none;}
+  .dept-ps-about-text {line-height: 42px;}
+  .teacher-profile .teacher-img img {height: 550px;}
+  .login-box form input, .registration-content input {width: 100%;}
+  .student-result .search-option .select-class-option input, 
+  .student-result .search-option .nice-select {margin-bottom: 0;}
+  .footer-area .email-newsletter input {max-width: 223px;}    
+}
+
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+.slider-bg {min-height: 550px;}
+.footer-section-padding {padding-bottom: 100px;}
+.mb-mobile-50{margin-bottom: 50px;}
+.mb-mobile-40{margin-bottom: 40px;}
+.login-box form input, .registration-content input {width: 100%;}
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.course-list .single-course-item .course-meta .course-duration {display: none;}
+.mb-md-no{margin-bottom: 0;}
+.mb-md-40 {	margin-top: 40px;}
+.dept-ps.logo {justify-content: center;display: flex;padding: 20px 0;}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.header-menu.dept-ps {padding: 20px;}
+.mb-md-40 {	margin-top: 40px;}
+.teacher-profile .teacher-img img {height: 450px;	width: 100%;}
+.app-section .app-logo {text-align: center; margin-top: 30px;}
+.header-menu.dept-ps.menu_fixed {position: relative;}
+.app-section .app-text{text-align: center;}
+.footer-credit .copyright {margin-bottom: 30px;}
+.login-info p {display: none !important;}
+.user-approve-btn ul li a {margin-bottom: 5px;}
+.admin-menu-pc {width: 118%;}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.slider-bg {min-height: 600px;} 
+.dept-ps.primary-menu ul li {margin-right: 20px;text-align: center;}
+
+}

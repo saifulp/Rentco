@@ -1,0 +1,29 @@
+/* Cta Css */
+.cta-section-padding{
+    padding: 80px 0;
+}
+.cta{
+    &__details{
+        & h2{
+            font-size: 50px;
+            font-weight: 400;
+            color: black;
+            font-family: $font-family;
+            & span{
+                color: $primary-color;
+                font-weight: 700;
+            }
+            margin-bottom: 30px;
+        }
+        & p{
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        & a{
+            font-size: 28px;
+            font-weight: 600;
+            color: #3A3A3A;
+        }
+    }
+}
